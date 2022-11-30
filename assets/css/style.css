@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#area{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#playground{
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+}
+#pacman{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    transition: all .4s;
+    /* transform: translateX(100px); */
+}
